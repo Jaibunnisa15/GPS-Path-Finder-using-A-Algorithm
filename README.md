@@ -1,1 +1,1 @@
-# GPS-Path-Finder-using-A-Algorithm
+# GPS-Path-Finder-using-A*-Algorithm
