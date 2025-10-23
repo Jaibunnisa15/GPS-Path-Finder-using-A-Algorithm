@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>A* Pathfinding Visualizer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>A* Pathfinding Visualizer</h1>
+  <div class="controls">
+    <button onclick="setMode('obstacle')">Set Obstacle</button>
+    <button onclick="setMode('start')">Set Start</button>
+    <button onclick="setMode('end')">Set End</button>
+    <button onclick="findPath()">Find Path</button>
+    <button onclick="clearGrid()">Clear</button>
+  </div>
+  <canvas id="gridCanvas" width="900" height="600"></canvas>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
